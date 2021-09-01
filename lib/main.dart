@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
               child: FlatButton(onPressed: () {
                 final player = AudioCache();
                 player.play('note2.wav');
-              }, child: Text('Play the sound'),)
+              }, child: Text('Play btn'),)
           ),
         ),
       )
